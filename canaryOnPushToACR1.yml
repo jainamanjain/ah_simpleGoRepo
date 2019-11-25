@@ -17,7 +17,7 @@ variables:
   system.debug: 'true'
   # PUBLISH_PIPELINE_METADATA: 'true'
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: DockerHubConnection
+  dockerRegistryServiceConnection: testacr
   imageRepository: 'acrrepo1'
   containerRegistry: 'abhisheaAcr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
