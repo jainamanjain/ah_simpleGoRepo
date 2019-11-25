@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: ahsimplegorepo 
-          image: raireg1.azurecr.io/ahsimplegorepo
+          image: abhisheaAcr.azurecr.io/acrrepo1
           ports:
           - containerPort: 80
