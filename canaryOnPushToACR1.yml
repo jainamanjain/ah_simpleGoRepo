@@ -55,7 +55,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy    
     pool: default
-    environment: 'zenithworksahsimpleGoRepo-Canary.dev-ns'
+    environment: 'test.default'
     strategy:
       canary:
         increments: [25, 50]
